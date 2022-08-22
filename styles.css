@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&display=swap');
+body {background:pink ; 
+    font-family: 'Aboreto', sans-serif;
+    font-size: 16 px;
+    font-weight: 400;
+    color:rgba(5, 25, 48, 0.568);}
+    a{
+        color: black;
+        text-decoration: none;
+    }
+    a:hover {
+        text-decoration:underline;
+    }
+    a:active {
+        color: blue;
+    }
+    a:visited{
+        color: brown;
+    }
+    .container {
+        max-width: 750px;
+        margin: auto;
+        padding-top: 30px;
+    }
+    .avatar {
+        width: 200px;
+        border-radius: 25px;
+       box-shadow: 4px 4px 14px rgba(0, 0, 0, .25); 
+    }
+    h1,h2{ color: rgba(0, 0, 0, 0.788);} 
+    .info {
+        margin-bottom: 20px;
+         display: flex;}
+    .info-text{
+        margin-left: 40px;
+    }     
+    .info-text p{
+        font-style:italic;
+        font-weight: 900 ;}
+    .info-text h2 {
+        margin-bottom: 5px;
+    }
+    @media (max-width: 650px){
+       .info{
+        display: block;
+        text-align: center;
+       } 
+    }
+        
+    }
+.card{
+   
+    border-radius: 5px;
+    background: lemonchiffon ;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+.card h2{
+    margin-bottom: 10px;
+}
+.btn{
+    background: black;
+    padding: 15px 15px ;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.btn:hover{
+    opacity: 0.8;
+}
+.list{
+    padding:0px 20px ;
+}
+.list li{
+    margin-bottom: 10px;
+}
+.table{
+  width: 100%;  
+}
+.table td{
+    padding-bottom: 10px;
+}
+.table td:nth-child(1),
+.table td:nth-child(3){
+    color: darkgrey;
+}
+.form-group label{
+ display: block;
+ font-size: 15px;
+}
+.form-group input,
+.form-group textarea{
+    width: 100%;
+    box-sizing: border-box;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid violet;
+    padding: 15px 0px 10px ;
+    font-family: inherit;
+    outline: none;
+}
